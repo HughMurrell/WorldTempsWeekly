@@ -19,17 +19,19 @@ from the nearest neighbor in the cleaned data set.
 
 ### Data Sets
 
-..* `data_clean.csv` cleaned NOAA average monthly temperatures for stations on the globe.
+`data_clean.csv` cleaned NOAA average monthly temperatures for stations on the globe.
 
-..* `airports.csv` list of airports around the globe with their geo-coordinates
+`airports.csv` list of airports around the globe with their geo-coordinates
 
-..* `airports_temp_augmented.csv` same as `airports` data but augmented by average weekly temperatures
+`airports_temp_augmented.csv` same as `airports` data but augmented by average weekly temperatures
 obtained by running `TempInterp` notebook
 
 
 ### Animation
 
 Below is a 52 frame animation of average temperatures for airports around the world.
-This animation can be generated using the `TempInterp` notebook.
 
 ![alt text](https://github.com/HughMurrell/WorldTempsWeekly/blob/master/anim_world_temp.gif "World Airports temperature animation")
+
+This animation can be generated using the `TempInterp` notebook.
+
