@@ -4,14 +4,17 @@
 
 In this repository we present two Julia notebooks
 
-### `TempDataClean.ipynb`
+### `TempDataClean`
 
-This notebook gives some idea on how the data set from NOAA was cleaned.
+This notebook gives some idea on how the data sets from NOAA were cleaned
+in order to generate the latest recorded average monthly temperatures for
+weather stations around the globe.
+
 It is not possible to run this notebook as is because the input data from
 NOAA is too large storage on github repositories
 
 
-### `TempInterp.ipynb`
+### `TempInterp`
 
 This notebook reads the cleaned version of NOAA monthly temperature data from weather stations
 around the world and then iterpolates weekly temperatures for any point on the globe
